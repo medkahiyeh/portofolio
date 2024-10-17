@@ -9,6 +9,13 @@
     box-sizing: border-box;
     background-color: var(--color) ;
     color:white;
+     /* transition-property: ;
+     transition-duration: ;
+     transition-timing-function: ;
+     transition-delay: ; */
+     transition: all 1s;
+     /* transition-delay: 2s; */
+     transition-timing-function: ease-in;
 
 
 }
@@ -32,6 +39,8 @@ a{
 a:hover{
     opacity: 0.5;
     text-decoration: underline;
+   
+    
 }
 
 header{
