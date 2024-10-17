@@ -1,0 +1,56 @@
+@media screen and  (max-width: 875px){
+
+    ul{
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+        /* border:1px solid black ; */
+
+    }
+
+    section.firstSection img{
+        display: none
+    }
+    main{
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    .secondSection img{
+        display: none
+    }
+    .secondSection {
+        /* width: 100%;
+        border: 1px solid white */
+    }
+
+    .secondSection div.bloc1{
+        /* width: ;
+        border:  */
+    } 
+  
+    .SectionFive input{
+        font: size 10px; ;
+    }
+    .SectionFive form {
+        justify-content: center
+        
+    }
+    
+}
+/* @media screen and  (max-width: 975px){
+    body{
+        background-color: #fff;
+    }
+}
+@media screen and  (max-width: 875px){
+    body{
+        background-color: olive;
+    }
+} */
+
+
+
+
+
+    

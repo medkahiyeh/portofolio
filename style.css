@@ -1,0 +1,426 @@
+:root{
+    --color: rgb(22, 37, 39);
+}
+
+
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: var(--color) ;
+    color:white;
+
+
+}
+
+ header nav div.logo + i{
+    display: none;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+a:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+header{
+    height: 10vh;
+    margin: 10px 100px;
+    /* ht&bs dg*/
+}
+
+/*HEADER NAVIGATEUR */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+ul{
+    
+    display: flex;
+    /* border: 10px solid white; */
+    width: 50%;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style-type: none;
+    /* padding: 10px;
+    margin: 10px; */
+}
+
+
+p{
+    opacity: 0.5;
+    font-size: 1em;
+    /* mettre transparent le p  */
+}
+/*MAIN */
+
+
+
+main{
+    height: 80vh;
+    margin: 0px 100px;
+    /* border: 1px solid white; */
+    height: auto;
+    padding-top: 0;
+}
+
+
+ 
+.firstSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    height:auto;
+    margin-bottom: 100px;
+    /* border: 1px solid white; */
+    padding-top: 0;
+    
+   
+}
+
+section.firstSection div{
+    /* border: 1px solid white; */
+    padding-top: 100px;
+}
+
+section.firstSection div h2{
+    font-size: 1.5em;
+    margin: 30px  0;
+    text-align: center;
+    /* opacity: 0.5; */
+    line-height: 50px;
+    font-family: 'Roboto';
+    /* border: 1px solid white; */
+}
+section.firstSection div h2 span{
+    font-size: 2.0em;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+section.firstSection img{
+       
+    /* height: 600px;
+    width: 500px; */
+    width: 70%;
+    height: 550px;
+    /* transform: translateY(-100px); */
+
+    margin: 0;
+    /* border: 1px solid white; */
+    padding: 0;
+
+    mix-blend-mode: transparent;
+   
+}
+
+section.firstSection p{
+    font-family: 'Roboto';
+    line-height: 20px;
+}
+ /* a propos */
+
+.secondSection  h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Roboto';
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+.secondSection div.bloc1{
+    display: flex;
+    justify-content: space-between;
+    
+    
+   /* a propos image */
+
+}
+.secondSection img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.secondSection div.bloc1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondSection div.bloc1 div h3{
+    margin: 20px 0;
+    font-family: 'Roboto';
+    font-size: 1.6em;
+}
+
+
+.secondSection div.bloc1 div p{
+    line-height: 20px;
+   
+}
+
+/*L 'experience */
+
+.thirtSection{
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+/* Competences */
+
+.fourthSection{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.SectionFive form{
+    margin: 10px 10px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fourthSection div img{
+    height: 60px;
+    width: 70px; 
+    border-radius: 50px;
+    margin: 10px 50px;
+}
+
+/* formulaire */
+
+
+.SectionFive form{
+    /* border: 1px solid white;  */
+    background-color: #ccc;
+    margin: 50px auto ;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    mix-blend-mode:hard-light;
+
+}
+
+.SectionFive,h2,p{
+    text-align: center;
+}
+
+.SectionFive label{
+
+display: flex;
+
+}
+
+
+label {
+    font-size: 16px;
+    /* color: #e4dfdf; */
+}
+
+input, textarea, select {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    /* border: 1px solid #ccc; */
+    border-radius: 2px;
+    font-size: 16px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--color);
+    color: var(--color);
+    
+}
+
+
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: var(--color);
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 0;
+ 
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--color);
+    border: 1px solid var(--color);
+}
+
+
+/*footer */
+
+
+.sectionfooter{
+  display: flex;
+  justify-content: space-between;
+ padding: 60px 10px;
+ text-align: center;
+ margin: 10px 100px;
+  /* border: 1px solid white;  */
+
+
+}
+ .icone{  
+    display: flex;
+     justify-content: center;
+    width: 20vh ;
+    height: 20px;
+     /* border: 1px solid white; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+
+
+
+@media screen and (max-width: 772px){
+
+    header{
+        /* border: 2px solid white; */
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+    nav{
+        padding: 0;
+        /* border: 2px solid white; */
+    }
+
+    nav div.logo h2{
+        padding: 0;
+        /* border: 2px solid white; */
+        text-align: left;
+    }
+    nav, nav ul {
+        /* background-color: #fff; */
+    }
+
+    header ,nav, ul{
+        height: 10vh;
+        /* border: 2px solid red */
+    }
+    main{
+        padding: 0 10px;
+        height: 250vh;
+    }
+
+
+
+    
+    main section.SectionFive{
+        /* border: 2px solid white; */
+        width: 100%;
+    }
+
+    main section.SectionFive form{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    input, textarea, select{
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 402px){
+    ul, div.logo{
+        display: none;
+    }
+
+    header nav div.logo + i{
+        font-size: 5em;
+        display: block;
+        width: 100px;
+        margin: auto;
+        border: 2px solid white;
+        text-align: center;
+    }
+
+    header{
+        /* border: 2px solid white; */
+        width: 100%;
+        margin: 10px 0;
+    }
+    nav{
+        /* border: 2px solid white; */
+    }
+
+
+    main{
+        height:410vh;
+        margin: 10px 0px;
+        padding: 0 10px;
+        /* border: 2px solid white; */
+        overflow: hidden;
+    }
+    main section.firstSection{
+        /* border: 2px solid white; */
+        
+    }
+
+    main section.firstSection div{
+          /* border: 2px solid white; */
+        padding: 0;
+    }
+
+    main section.firstSection div h2{
+        font-size: 1em;
+        line-height: 30px;
+
+    }
+
+
+
+}
+
+
